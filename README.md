@@ -1,33 +1,67 @@
-## Grupo B - Equipo 2
-_Curso de Programación Asistida con IA - CET/_ 🚀
+# Proyecto Empleo Juvenil - Buenos Aires
+# Primeros Pasos
 
-En este repositorio, se presenta el sitio web realizado durante el curso de programación frontend de CET.
+## 📋 Descripción del Proyecto
 
-### 📄 Entregas
-**Entrega #1**: planificación de la solución y primeros resultados que obtengamos con la IA:
+Plataforma web diseñada para abordar la falta de oportunidades laborales para menores de 18 años sin experiencia en Buenos Aires, Argentina (Capital Federal - CABA), enfocándose en el ODS 8 (Trabajo Decente y Crecimiento Económico).
 
-📝 Edición del Archivo README incluyendo:
-- Definición de la problemática que eligieron abordar
-- Relación con los *Objetivos de Desarrollo Sostenible (ODS)*[^1]
-- Explicación de la solución tecnológica que están desarrollando
-> [!TIP]
-> Aprovechen los [formatos del README](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) para escribir diferentes secciones
+## 🎯 Problema Identificado
 
-🎨 Moodboard
+La falta de trabajo para menores de 18 años sin experiencia laboral en Buenos Aires representa un desafío significativo que limita el desarrollo profesional temprano y las oportunidades de crecimiento personal de los adolescentes.
 
-🧩 Archivos generados con asistencia de IA: ```index.html```, ```style.css```, ```script.js```
+## 👥 Público Objetivo
 
+- **Usuarios principales**: Menores de 18 años (adolescentes)
+- **Ubicación**: Buenos Aires, Argentina
+- **Perfil**: Jóvenes sin experiencia laboral previa buscando oportunidades de trabajo
 
-**Entrega #2 (Final)**: se esperan modificaciones en el código respecto a la entrega anterior, que pueden incluir nuevos archivos o extensión de los existentes (debe haber al menos un archivo de cada lenguaje visto - HTML, CSS y Javascript)
+## 💡 Solución Propuesta
 
-💡 Es una buena idea llevar un registro de lo que cambiamos. Por ejemplo
-```
-- Agregamos Bootstrap para el carrousel de imágenes...
-- Modificamos el texto de la sección de bienvenida...
-- Transformamos los textos sobre redes sociales en links...
-```
+Desarrollo de una página web que ayude y capacite a adolescentes menores de 18 años, proporcionando:
 
-Ahora si, ¡A programar! 🚀
+- Orientación laboral especializada
+- Capacitación en habilidades relevantes
+- Conexión con oportunidades apropiadas para su edad
+- Recursos para obtener experiencia temprana
 
+## ⚙️ Funcionalidades Clave
 
-[^1]: Los Objetivos de Desarrollo Sostenible u Objetivos Globales, también conocidos como Agenda 2030, son 17 objetivos globales interconectados diseñados para ser un «plan para lograr un futuro mejor y más sostenible para todos». Más información en https://www.un.org/sustainabledevelopment/es/objetivos-de-desarrollo-sostenible/
+### 1. **Información y Orientación**
+- Brindar información sobre pasantías y oportunidades de voluntariado
+- Guías sobre derechos laborales para menores
+
+### 2. **Capacitación Digital**
+- Video explicativo sobre cómo realizar un CV con inteligencia artificial
+- Tutoriales y recursos educativos
+
+### 3. **Herramientas de Búsqueda**
+- Quiz para ayudar al menor a identificar en qué área se quiere especializar
+- Sistema de recomendaciones personalizadas
+
+## 🎯 Objetivos del Proyecto
+
+- Reducir la brecha de empleo juvenil en Buenos Aires
+- Proporcionar herramientas digitales accesibles para la búsqueda de empleo
+- Facilitar la transición de los jóvenes al mundo laboral
+- Promover el desarrollo de habilidades tempranas
+
+## 🌍 Impacto Esperado
+
+Este proyecto contribuye directamente al **ODS 8 (Trabajo Decente y Crecimiento Económico)** al:
+
+- Facilitar el acceso al empleo para jóvenes
+- Promover oportunidades de trabajo digno
+- Fomentar el crecimiento económico inclusivo
+- Desarrollar habilidades laborales desde temprana edad
+
+## 🚀 Próximos Pasos
+
+1. Desarrollo de la plataforma web
+2. Creación de contenido educativo
+3. Implementación de herramientas interactivas
+4. Pruebas con usuarios objetivo
+5. Lanzamiento y promoción
+
+---
+
+*Proyecto desarrollado con el objetivo de crear oportunidades laborales para jóvenes en Buenos Aires, Argentina.*
