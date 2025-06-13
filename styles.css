@@ -178,7 +178,7 @@ header::before {
 .stat-number {
     font-size: 2rem;
     font-weight: bold;
-    color: #a78bfa;
+    color: #9b7bfa;
     display: block;
     margin-bottom: 0.5rem;
 }
@@ -382,7 +382,7 @@ footer {
     }
 
     .search-box {
-        flex-direction: column;
+        flex-direction: right;
     }
 
     .logo {
