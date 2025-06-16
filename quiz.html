@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Vocacional - Primeros Pasos</title>
+    <link rel="stylesheet" href="quiz-styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="quiz-header">
+            <h1>🧭 Quiz Vocacional</h1>
+            <p>Descubre qué carrera se adapta mejor a tu personalidad y habilidades</p>
+        </div>
+
+        <div class="quiz-container">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+
+            
+            <div class="question-container active" data-question="0">
+                <div class="question-number">Pregunta 1 de 8</div>
+                <div class="question-text">¿Qué actividad te resulta más atractiva en tu tiempo libre?</div>
+                <div class="options">
+                    <div class="option" data-value="creative">
+                        <span class="option-icon">🎨</span>
+                        <span>Crear contenido, dibujar o hacer manualidades</span>
+                    </div>
+                    <div class="option" data-value="social">
+                        <span class="option-icon">👥</span>
+                        <span>Pasar tiempo con amigos y conocer gente nueva</span>
+                    </div>
+                    <div class="option" data-value="analytical">
+                        <span class="option-icon">🔍</span>
+                        <span>Resolver problemas y analizar información</span>
+                    </div>
+                    <div class="option" data-value="practical">
+                        <span class="option-icon">🔧</span>
+                        <span>Trabajar con las manos y arreglar cosas</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="question-container" data-question="1">
+                <div class="question-number">Pregunta 2 de 8</div>
+                <div class="question-text">¿Cuál de estas habilidades consideras que es tu fuerte?</div>
+                <div class="options">
+                    <div class="option" data-value="social">
+                        <span class="option-icon">🗣️</span>
+                        <span>Comunicación y trabajo en equipo</span>
+                    </div>
+                    <div class="option" data-value="analytical">
+                        <span class="option-icon">📊</span>
+                        <span>Análisis y resolución de problemas</span>
+                    </div>
+                    <div class="option" data-value="creative">
+                        <span class="option-icon">💡</span>
+                        <span>Creatividad e innovación</span>
+                    </div>
+                    <div class="option" data-value="practical">
+                        <span class="option-icon">⚡</span>
+                        <span>Habilidades técnicas y prácticas</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="question-container" data-question="2">
+                <div class="question-number">Pregunta 3 de 8</div>
+                <div class="question-text">¿En qué tipo de ambiente te sientes más cómodo trabajando?</div>
+                <div class="options">
+                    <div class="option" data-value="social">
+                        <span class="option-icon">🏢</span>
+                        <span>Oficina con mucha interacción social</span>
+                    </div>
+                    <div class="option" data-value="creative">
+                        <span class="option-icon">🏠</span>
+                        <span>Espacio creativo y flexible</span>
+                    </div>
+                    <div class="option" data-value="analytical">
+                        <span class="option-icon">💻</span>
+                        <span>Ambiente tranquilo y organizado</span>
+                    </div>
+                    <div class="option" data-value="practical">
+                        <span class="option-icon">🏗️</span>
+                        <span>Taller o espacio práctico</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="question-container" data-question="3">
+                <div class="question-number">Pregunta 4 de 8</div>
+                <div class="question-text">¿Qué te motiva más en un trabajo?</div>
+                <div class="options">
+                    <div class="option" data-value="social">
+                        <span class="option-icon">🤝</span>
+                        <span>Ayudar a las personas y hacer una diferencia</span>
+                    </div>
+                    <div class="option" data-value="creative">
+                        <span class="option-icon">🌟</span>
+                        <span>Expresar mi creatividad y originalidad</span>
+                    </div>
+                    <div class="option" data-value="analytical">
+                        <span class="option-icon">🎯</span>
+                        <span>Resolver desafíos complejos</span>
+                    </div>
+                    <div class="option" data-value="practical">
+                        <span class="option-icon">🏆</span>
+                        <span>Ver resultados tangibles de mi trabajo</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="question-container" data-question="4">
+                <div class="question-number">Pregunta 5 de 8</div>
+                <div class="question-text">¿Cuál es tu forma preferida de aprender?</div>
+                <div class="options">
+                    <div class="option" data-value="social">
+                        <span class="option-icon">👥</span>
+                        <span>En grupo, discutiendo ideas</span>
+                    </div>
+                    <div class="option" data-value="creative">
+                        <span class="option-icon">🎭</span>
+                        <span>A través de proyectos creativos</span>
+                    </div>
+                    <div class="option" data-value="analytical">
+                        <span class="option-icon">📚</span>
+                        <span>Leyendo y analizando información</span>
+                    </div>
+                    <div class="option" data-value="practical">
+                        <span class="option-icon">🔨</span>
+                        <span>Haciendo y practicando</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="question-container" data-question="5">
+                <div class="question-number">Pregunta 6 de 8</div>
+                <div class="question-text">¿Qué tipo de tareas te resultan más fáciles?</div>
+                <div class="options">
+                    <div class="option" data-value="social">
+                        <span class="option-icon">📞</span>
+                        <span>Atender clientes y resolver consultas</span>
+                    </div>
+                    <div class="option" data-value="creative">
+                        <span class="option-icon">🎪</span>
+                        <span>Diseñar y crear contenido visual</span>
+                    </div>
+                    <div class="option" data-value="analytical">
+                        <span class="option-icon">📈</span>
+                        <span>Organizar datos y hacer cálculos</span>
+                    </div>
+                    <div class="option" data-value="practical">
+                        <span class="option-icon">🔧</span>
+                        <span>Ensamblar y reparar cosas</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="question-container" data-question="6">
+                <div class="question-number">Pregunta 7 de 8</div>
+                <div class="question-text">¿Qué aspecto valoras más en un equipo de trabajo?</div>
+                <div class="options">
+                    <div class="option" data-value="social">
+                        <span class="option-icon">💬</span>
+                        <span>Buena comunicación y apoyo mutuo</span>
+                    </div>
+                    <div class="option" data-value="creative">
+                        <span class="option-icon">🌈</span>
+                        <span>Libertad creativa y diversidad de ideas</span>
+                    </div>
+                    <div class="option" data-value="analytical">
+                        <span class="option-icon">📋</span>
+                        <span>Organización y métodos claros</span>
+                    </div>
+                    <div class="option" data-value="practical">
+                        <span class="option-icon">⚙️</span>
+                        <span>Eficiencia y resultados concretos</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="question-container" data-question="7">
+                <div class="question-number">Pregunta 8 de 8</div>
+                <div class="question-text">¿Cuál de estos desafíos te emociona más?</div>
+                <div class="options">
+                    <div class="option" data-value="social">
+                        <span class="option-icon">🌍</span>
+                        <span>Mejorar la experiencia de las personas</span>
+                    </div>
+                    <div class="option" data-value="creative">
+                        <span class="option-icon">🚀</span>
+                        <span>Crear algo completamente nuevo</span>
+                    </div>
+                    <div class="option" data-value="analytical">
+                        <span class="option-icon">🧩</span>
+                        <span>Resolver un problema complejo</span>
+                    </div>
+                    <div class="option" data-value="practical">
+                        <span class="option-icon">🔩</span>
+                        <span>Construir algo útil y funcional</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navegación -->
+            <div class="quiz-navigation">
+                <button class="btn btn-secondary" id="prevBtn" onclick="previousQuestion()" disabled>
+                    ← Anterior
+                </button>
+                <button class="btn btn-primary" id="nextBtn" onclick="nextQuestion()" disabled>
+                    Siguiente →
+                </button>
+            </div>
+        </div>
+
+        <!-- Contenedor de Resultados -->
+        <div class="result-container" id="resultContainer">
+            <div class="result-icon" id="resultIcon">🎯</div>
+            <div class="result-title" id="resultTitle">Tu perfil vocacional</div>
+            <div class="result-description" id="resultDescription">
+                Descripción del resultado aparecerá aquí...
+            </div>
+            
+            <div class="career-suggestions" id="careerSuggestions">
+                <h3>Carreras recomendadas para ti:</h3>
+                <div class="career-list" id="careerList">
+                    <!-- Las carreras se llenarán dinámicamente -->
+                </div>
+            </div>
+            
+            <button class="btn restart-btn" onclick="restartQuiz()">
+                🔄 Hacer el quiz nuevamente
+            </button>
+        </div>
+    </div>
+
+    <script src="quiz-script.js"></script>
+</body>
+</html>
