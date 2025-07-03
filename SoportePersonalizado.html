@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soporte Laboral Jóvenes BA</title>
+    <link rel="stylesheet" href="SoportePersonalizado-styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 Soporte Laboral para Jóvenes</h1>
+            <p class="subtitle">Tu guía personalizada para encontrar trabajo en Buenos Aires</p>
+            <p>Orientación especializada para jóvenes de 16 a 25 años</p>
+        </header>
+
+        <div class="main-content">
+            <div class="card">
+                <h2><span class="icon">📝</span>Consejos para tu CV</h2>
+                <ul class="tips-list">
+                    <li><strong>Formato claro:</strong> Usa un diseño limpio y profesional</li>
+                    <li><strong>Datos de contacto:</strong> Incluye teléfono, email y LinkedIn</li>
+                    <li><strong>Educación:</strong> Menciona tu nivel educativo y cursos</li>
+                    <li><strong>Experiencia:</strong> Incluye trabajos de medio tiempo, voluntariado o prácticas</li>
+                    <li><strong>Habilidades:</strong> Destaca idiomas, informática y habilidades blandas</li>
+                </ul>
+                <button class="button" onclick="showCVTips()">Ver ejemplos de CV</button>
+            </div>
+
+            <div class="card">
+                <h2><span class="icon">🎯</span>Dónde buscar trabajo</h2>
+                <a href="#" class="resource-link" onclick="openZonaJobs()">ZonaJobs - Portal líder en Argentina</a>
+                <a href="#" class="resource-link" onclick="openComputrabajo()">Computrabajo - Empleos variados</a>
+                <a href="#" class="resource-link" onclick="openLinkedIn()">LinkedIn - Red profesional</a>
+                <a href="#" class="resource-link" onclick="openBumeran()">Bumeran - Oportunidades locales</a>
+                <a href="#" class="resource-link" onclick="openIndeed()">Indeed - Búsqueda global</a>
+                <button class="button secondary" onclick="showJobTips()">Consejos de búsqueda</button>
+            </div>
+
+            <div class="card">
+                <h2><span class="icon">🏢</span>Empleos para jóvenes en BA</h2>
+                <ul class="tips-list">
+                    <li><strong>Retail:</strong> Vendedores en shoppings y locales</li>
+                    <li><strong>Gastronomía:</strong> Meseros, baristas, delivery</li>
+                    <li><strong>Call Centers:</strong> Atención al cliente</li>
+                    <li><strong>Administración:</strong> Asistentes, recepcionistas</li>
+                    <li><strong>Tech:</strong> Junior developers, QA testers</li>
+                    <li><strong>Marketing:</strong> Community managers, asistentes</li>
+                </ul>
+                <button class="button" onclick="showSalaryInfo()">Ver rangos salariales</button>
+            </div>
+
+            <div class="card">
+                <h2><span class="icon">🎓</span>Capacitación gratuita</h2>
+                <a href="#" class="resource-link" onclick="openCursos()">Cursos gratuitos del Gobierno de la Ciudad</a>
+                <a href="#" class="resource-link" onclick="openUTN()">UTN - Cursos técnicos</a>
+                <a href="#" class="resource-link" onclick="openCoderhouse()">Coder House - Becas disponibles</a>
+                <a href="#" class="resource-link" onclick="openDigitalHouse()">Digital House - Programación</a>
+                <a href="#" class="resource-link" onclick="openYouTube()">YouTube - Tutoriales gratuitos</a>
+                <button class="button secondary" onclick="showTrainingTips()">Guía de capacitación</button>
+            </div>
+        </div>
+
+        <div class="interactive-section">
+            <h2>🔍 Evaluador de Perfil Personalizado</h2>
+            <p>Completa esta información para recibir consejos personalizados:</p>
+            
+            <div class="form-group">
+                <label for="age">Edad:</label>
+                <input type="number" id="age" min="16" max="25" placeholder="Ej: 20">
+            </div>
+
+            <div class="form-group">
+                <label for="education">Nivel educativo:</label>
+                <select id="education">
+                    <option value="">Selecciona tu nivel</option>
+                    <option value="secundario">Secundario en curso</option>
+                    <option value="secundario-completo">Secundario completo</option>
+                    <option value="terciario">Terciario/Universitario en curso</option>
+                    <option value="terciario-completo">Terciario/Universitario completo</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="experience">Experiencia laboral:</label>
+                <select id="experience">
+                    <option value="">Selecciona tu experiencia</option>
+                    <option value="ninguna">Sin experiencia</option>
+                    <option value="temporal">Trabajos temporales/medio tiempo</option>
+                    <option value="formal">Experiencia formal</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="area">Área de interés:</label>
+                <select id="area">
+                    <option value="">Selecciona un área</option>
+                    <option value="retail">Retail/Ventas</option>
+                    <option value="gastronomia">Gastronomía</option>
+                    <option value="administracion">Administración</option>
+                    <option value="tecnologia">Tecnología</option>
+                    <option value="marketing">Marketing</option>
+                    <option value="educacion">Educación</option>
+                </select>
+            </div>
+
+            <button class="button" onclick="generateAdvice()">Generar consejos personalizados</button>
+
+            <div id="personalizedResult" class="result">
+                <h3>Tus consejos personalizados:</h3>
+                <div id="adviceContent"></div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>💪 <strong>Recordá:</strong> La perseverancia es clave. Cada "no" te acerca más al "sí"</p>
+            <p>📞 <strong>Contacto de emergencia:</strong> Oficina de Empleo GCBA: 147</p>
+            <p>🌟 ¡Éxitos en tu búsqueda laboral!</p>
+        </div>
+    </div>
+
+    <script src="SoportePersonalizado-script.js"></script>
+</body>
+</html>
