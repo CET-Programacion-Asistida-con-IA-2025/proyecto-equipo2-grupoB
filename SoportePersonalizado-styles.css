@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #ceb8f7d0 0%, #8d74bb 100%);
     min-height: 100vh;
     color: #333;
     line-height: 1.6;
@@ -97,12 +97,12 @@ h1 {
 }
 
 .button.secondary {
-    background: linear-gradient(45deg, #27ae60, #2ecc71);
+    background: linear-gradient(45deg, #3498db, #2980b9);
 }
 
 .button.secondary:hover {
-    background: linear-gradient(45deg, #2ecc71, #27ae60);
-    box-shadow: 0 5px 15px rgba(46, 204, 113, 0.3);
+    background: linear-gradient(45deg, #2980b9, #3498db);
+    box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
 }
 
 .tips-list {
@@ -126,18 +126,18 @@ h1 {
 
 .resource-link {
     display: block;
-    background: rgba(46, 204, 113, 0.1);
-    color: #27ae60;
+    background: rgba(52, 152, 219, 0.1);
+    color: #000000;
     text-decoration: none;
     padding: 15px;
     margin: 10px 0;
     border-radius: 10px;
-    border-left: 4px solid #27ae60;
+    border-left: 4px solid #3498db;
     transition: all 0.3s ease;
 }
 
 .resource-link:hover {
-    background: rgba(46, 204, 113, 0.2);
+    background: rgba(52, 152, 219, 0.3);
     transform: translateX(5px);
 }
 
@@ -147,7 +147,7 @@ h1 {
     border-radius: 20px;
     padding: 30px;
     margin-bottom: 30px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 32px rgba(52, 152, 219, 0.3);
 }
 
 .form-group {
@@ -176,7 +176,7 @@ input:focus, select:focus, textarea:focus {
 }
 
 .result {
-    background: rgba(52, 152, 219, 0.1);
+    background: rgba(52, 152, 219, 0.3);
     border-radius: 10px;
     padding: 20px;
     margin-top: 20px;
